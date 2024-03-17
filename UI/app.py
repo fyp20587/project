@@ -125,12 +125,17 @@ sentiment_color = {
 }
 
 # TITLE section
-st.title("Real-time Sentiment Analysis on News Data")
-#st.write("hi") --> test
+st.markdown("<h1 style='text-align: center;'>Welcome to Sentiment Today! ", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Find out sentiment of political news today using our...</h2>", unsafe_allow_html=True)
+
+# Following the centered title with a centered message
+st.markdown("<h3 style='text-align: center; color: blue; font-style: italic;'>REAL TIME ANALYZER</h3>", unsafe_allow_html=True)
+
+
 st.markdown(
     f"""
-    <div style="background-color:{sentiment_color['Neutral']};padding:10px;border-radius:5px">
-        <h3 style="color:white;">Enter the news for sentiment analysis:</h3>
+    <div style="background-color:mediumblue;padding:10px;border-radius:5px">
+        <h3 style="color:white;">Enter text from a news article for sentiment analysis:</h3>
     </div>
     """,
     unsafe_allow_html=True
