@@ -60,14 +60,9 @@ def bert_predict(model, b_input_ids, b_attn_mask):
     model.eval()
 
     all_logits = []
-    # Assuming 'device' is already defined
+
     b_input_ids = test_seq.to(b_input_ids)
     b_attn_mask = test_mask.to(b_attn_mask)
-
-   #test_seq, test_mask = tuple(t.to(device) for t in batch)[:2]
-
-    # compute logits
-    #no gradients, means just want to predict, not update the model weight 
     with torch.no_grad():
         logits = model(b_input_ids, b_attn_mask)
     all_logits.append(logits)
@@ -113,7 +108,8 @@ max_len=512 #extend the length of word or sentence bc when trained the model sai
 #setting page configuration:
 st.set_page_config(
     page_title="Sentiment Analysis App",
-    page_icon="📊",
+    page_icon= "bargraphpic.png",
+#    page_icon="📊",
     layout="centered"
 )
 
