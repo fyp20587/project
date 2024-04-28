@@ -1,4 +1,5 @@
- Final Year Project
+ Final Year Project: 
+(After downloading the zip file and renaming it to 'zakyabert')
 
 
 Main project (BERT finetuning): zakyabert/sentiment_modelling.ipynb 
