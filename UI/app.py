@@ -76,11 +76,6 @@ def bert_predict(model, b_input_ids, b_attn_mask):
     all_logits = torch.cat(all_logits, dim=1)
 
     #apply softmax to calculate probabilities
-    #returns probability of sentiments, calculates from the torch.cat 
-    #soft max is the last layer of the model where truncate or train the model, only interested in know what if sentence leve
-    #is negative or positive which is in softmax layer
-    #all logits pushed into cpu
-    #here got probability for negative or positive etc, highest one is the result
     probs = F.softmax(all_logits, dim=1).cpu().numpy()
 
     return probs
