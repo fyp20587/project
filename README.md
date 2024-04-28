@@ -26,9 +26,10 @@ To access the website, go to zakyabert/UI/app.py
 And on terminal run with ‘streamlit run app.py’
 
 To access deployed website: https://sentimentoday.streamlit.app/
-Please note the deployed website may take long to run due to the cloud services…
+
 
 If you want to run everything yourself please follow these steps: 
+Download zip file and rename to'zakyabert'
 Run ‘data pre-processing’ for datasets ‘financialdata.csv’, ‘SEN_en_AMT_nooutlier.csv’ and ‘SEN_en_R_nooutlier.csv’ to produce ‘processed_data.csv’
 
 Run ‘sentiment_modelling’ which is the BERT Finetuned code to produce models (bertModel.pt, config.json, pytorch_model.bin, special_tokens_map.json, tokenizer_config.json, vocab.txt) needed.
