@@ -38,7 +38,6 @@ Run app.py with command ‘streamlit run app.py’ to access website with the de
 
 
 Note: will take longer to load when using CPU (instead of GPU), also the processed dataset and models are already produced so all steps not necessary 
-![Uploading image.png…]()
 
 
  Github repository for access to all files: https://github.com/fyp20587/project
