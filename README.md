@@ -1,5 +1,5 @@
  Final Year Project: 
-(After downloading the zip file and renaming it to 'zakyabert')
+(After downloading the zip file and renaming it to 'zakyabert', use conda environment)
 
 
 Main project (BERT finetuning): zakyabert/sentiment_modelling.ipynb 
@@ -9,8 +9,9 @@ Data preprocessing: zakyabert/datasets/data_pre-processing
 Supervised learning models: zakyabert/zakyascikit/supervisedmodels.ipynb
 
 
-Website source code: zakyabert/UI/app.py To run the website: streamlit run app.py
-
+Website source code: zakyabert/UI/app.py
+To run the website: streamlit run app.py
+To access deployed website: https://sentimentoday.streamlit.app/
 
 
 Requirements:
@@ -20,13 +21,6 @@ transformers==4.10.0
 numpy==1.21.1
 matplotlib==3.4.3
 huggingface-hub>=0.15.1,<1.0
-
-
-Steps:
-To access the website, go to zakyabert/UI/app.py
-And on terminal run with ‘streamlit run app.py’
-
-To access deployed website: https://sentimentoday.streamlit.app/
 
 
 If you want to run everything yourself please follow these steps: 
