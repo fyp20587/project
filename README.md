@@ -4,12 +4,12 @@
 
 - Download the zip file and rename it 'zakyabert'
 - Use conda environment:
-    -> python -m venv myen
-    -> source myenv/bin/activate  # On Unix/macOS
-    -> myenv\Scripts\activate  # On Windows
+- python -m venv myen
+- source myenv/bin/activate  # On Unix/macOS
+- myenv\Scripts\activate  # On Windows
 
 - Install Dependences
-    -> pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Main project (BERT finetuning): zakyabert/sentiment_modelling.ipynb 
 
