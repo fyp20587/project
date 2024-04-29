@@ -1,5 +1,5 @@
- Final Year Project: SentimentToday 
- To access deployed website: https://sentimentoday.streamlit.app/ 
+**Final Year Project: SentimentToday**
+ - To access deployed website: https://sentimentoday.streamlit.app/ 
 
 
 - Download the zip file and rename it 'zakyabert'
