@@ -1,6 +1,15 @@
- Final Year Project: 
-(After downloading the zip file and renaming it to 'zakyabert', use conda environment)
+ **Final Year Project: SentimentToday **
+ __To access deployed website: https://sentimentoday.streamlit.app/ __
 
+
+- Download the zip file and rename it 'zakyabert'
+- Use conda environment:
+    -> python -m venv myen
+    -> source myenv/bin/activate  # On Unix/macOS
+    -> myenv\Scripts\activate  # On Windows
+
+- Install Dependences
+    -> pip install -r requirements.txt
 
 Main project (BERT finetuning): zakyabert/sentiment_modelling.ipynb 
 
@@ -11,10 +20,9 @@ Supervised learning models: zakyabert/zakyascikit/supervisedmodels.ipynb
 
 Website source code: zakyabert/UI/app.py
 To run the website: streamlit run app.py
-To access deployed website: https://sentimentoday.streamlit.app/
 
 
-Requirements:
+Main Requirements:
 streamlit>=0.84.0
 torch==1.9.0
 transformers==4.10.0
@@ -23,8 +31,8 @@ matplotlib==3.4.3
 huggingface-hub>=0.15.1,<1.0
 
 
-If you want to run everything yourself please follow these steps: 
-Download zip file and rename to'zakyabert'
+If you want to run everything yourself please also follow these steps: 
+
 Run ‘data pre-processing’ for datasets ‘financialdata.csv’, ‘SEN_en_AMT_nooutlier.csv’ and ‘SEN_en_R_nooutlier.csv’ to produce ‘processed_data.csv’
 
 Run ‘sentiment_modelling’ which is the BERT Finetuned code to produce models (bertModel.pt, config.json, pytorch_model.bin, special_tokens_map.json, tokenizer_config.json, vocab.txt) needed.
